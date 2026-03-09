@@ -1,0 +1,86 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    ;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #fff;
+    background-color: beige;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: bisque;
+    color: black;
+}
+.topnav a {
+    background-color: aquamarine;
+    color: black;
+}
+.pimg1 ,.pimg2 ,.pimg3 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.pimg1 {
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/057/068/323/small/single-fresh-red-strawberry-on-table-green-background-food-fruit-sweet-macro-juicy-plant-image-photo.jpg");
+    min-height: 100%;
+}
+.pimg2 {
+    background-image: url("https://www.bigfootdigital.co.uk/wp-content/uploads/2020/07/image-optimisation-scaled.jpg");
+    min-height: 100%;
+}
+.pimg3 {
+    background-image: url("https://www.shutterstock.com/image-photo/traveler-woman-arms-raised-triumph-260nw-2457990309.jpg");
+    min-height: 100%;
+}
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+.section-light {
+    background-color: greenyellow;
+color: burlywood;
+}
+.section-dark {
+    background-color: rgb(19, 28, 5);
+color: bisque;
+}
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+}
+.ptext .border {
+    background-color: bisque;
+    color: black;
+    padding: 20px;
+    font-size: 25px;
+}
+.ptext .border .trans {
+    background-color: transparent;
+}
+@media(max-width:568px) {
+    .pimg1 ,.pimg2 ,.pimg3 {
+        background-attachment: scroll;
+    }
+}
