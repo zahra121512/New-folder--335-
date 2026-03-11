@@ -6,8 +6,10 @@ body, html {
     ;
     font-weight: 400;
     line-height: 1.8em;
-    color: #fff;
-    background-color: beige;
+    color: #0a0000;
+    background-color: burlywood
+    ;
+    margin: auto;
 }
 .topnav {
     overflow: hidden;
@@ -56,7 +58,7 @@ body, html {
 }
 .section-light {
     background-color: greenyellow;
-color: burlywood;
+color: black;
 }
 .section-dark {
     background-color: rgb(19, 28, 5);
@@ -83,4 +85,8 @@ color: bisque;
     .pimg1 ,.pimg2 ,.pimg3 {
         background-attachment: scroll;
     }
+}
+#pizza {
+    background-color: bisque;
+    color: black;
 }
